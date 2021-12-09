@@ -10,7 +10,7 @@ width = len(lines[0])
 heightmap = np.zeros([length, width])
 for i, line in enumerate(lines):
     heightmap[i] = [int(x) for x in line]
-#hi
+
 sum_lpoints = 0
 for row in range(length):
     for col in range(width):
